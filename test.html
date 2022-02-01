@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="feature-img">
+                <div class="bg-img bg-img-2" width="100%"></div> 
+                <!-- <img src="images/slider/2.jpg" width="100%">                       -->
+                <img src="images/slider/play.png" class="play-btn" 
+                onclick="playVideo('images/slider/example.mp4')">       
+                </div>
+        </div>
+        <div class="col">
+            <div class="small-img-row">
+                <div class="small-img">
+                    <div class="bg-img bg-img-2" width="100%"></div> 
+                    <img src="images/slider/play.png" class="play-btn"
+                    onclick="playVideo('images/slider/chini.mp4')">       
+                </div>
+            </div>
+
+            <div class="small-img-row">
+                <div class="small-img">
+                    <div class="bg-img bg-img-2" width="100%"></div>
+                    <img src="images/slider/play.png" class="play-btn"
+                    onclick="playVideo('images/slider/road.mp4')">               
+                </div>
+            </div>
+
+            <div class="small-img-row">
+                <div class="small-img">
+                    <div class="bg-img bg-img-2" width="100%"></div>
+                    <img src="images/slider/play.png" class="play-btn"
+                    onclick="playVideo('images/slider/example.mp4')"> 
+                    <img src="images/slider/play.png" class="play-btn" onclick="stopVideo()">               
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="video-player" id="videoPlayer">
+    <video width="100%" controls autoplay id="myVideo">
+        <source src="images/slider/example.mp4" type="video/mp4">
+    </video>
+    <img src="images/slider/close.png" class="close-btn">
+</div>
